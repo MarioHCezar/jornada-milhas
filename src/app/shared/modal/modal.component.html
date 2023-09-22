@@ -1,0 +1,45 @@
+<section class="modal">
+  <h2 mat-dialog-title>Passageiro</h2>
+  <div mat-dialog-content>
+    <div class="selecao-idade">
+      <ul>
+        <li><span class="bold">Adultos</span></li>
+        <li><span>(Acima de 12 anos)</span></li>
+        <li>
+          <img src="assets/imagens/subtraction.png" alt="subtracao" />
+          <span>1</span>
+          <img src="assets/imagens/adition.png" alt="adicao" />
+        </li>
+      </ul>
+      <ul>
+        <li><span class="bold">Crianças</span></li>
+        <li><span>(Abaixo de 12 anos)</span></li>
+        <li>
+          <img src="assets/imagens/subtraction.png" alt="subtracao" />
+          <span>1</span>
+          <img src="assets/imagens/adition.png" alt="adicao" />
+        </li>
+      </ul>
+      <ul>
+        <li><span class="bold">Bebês</span></li>
+        <li><span>(Abaixo de 2 anos)</span></li>
+        <li>
+          <img src="assets/imagens/subtraction.png" alt="subtracao" />
+          <span>1</span>
+          <img src="assets/imagens/adition.png" alt="adicao" />
+        </li>
+      </ul>
+    </div>
+    <mat-chip-listbox class="categoria" aria-label="Seleção de classe">
+      <div>
+        <p>Categoria</p>
+        <mat-chip-option color="primary" selected>Econômica</mat-chip-option>
+        <mat-chip-option color="secondary">Executiva</mat-chip-option>
+      </div>
+    </mat-chip-listbox>
+    <div class="buttons">
+      <button mat-flat-button color="secondary">Cancelar</button>
+      <button mat-flat-button color="primary">Aplicar</button>
+    </div>
+  </div>
+</section>

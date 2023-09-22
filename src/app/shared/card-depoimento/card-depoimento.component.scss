@@ -1,0 +1,23 @@
+.depoimento {
+  img{
+    margin: 1rem 0 0 1rem;
+  }
+  max-width: 320px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex: 1 0 0;
+  align-self: stretch;
+  background: #fef7ff;
+  .depoimento-nome{
+    display: flex;
+    flex-direction: column;
+    .nome{
+      margin-top: 1rem;
+      font-weight: 700;
+    }
+
+  }
+
+}

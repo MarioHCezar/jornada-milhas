@@ -1,0 +1,71 @@
+mat-toolbar
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  padding: 2rem 0;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 100%;
+  min-width: 1048px;
+  padding: 3rem 10rem;
+
+  .spacer {
+    flex: 1 1 auto;
+  }
+
+  .redes-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .redes{
+    display: flex;
+    padding: 0;
+  }
+
+
+  .redes li{
+    padding: 0.5rem;
+    list-style: none;
+
+  }
+
+  .site-info{
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+  }
+}
+
+// .app-footer {
+//   background-color: black;
+//   color: white;
+//   font-weight: 400;
+//   font-size: 16px;
+//   line-height: 24px;
+//   .inner {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     img {
+//       max-width: 100%;
+//       max-height: 40px;
+//     }
+//     ul {
+//       padding: 0;
+//       list-style: none;
+//       &.socials {
+//         li {
+//           text-align: center;
+//         }
+//       }
+//     }
+//   }
+// }

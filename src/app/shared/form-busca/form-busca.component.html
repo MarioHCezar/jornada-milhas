@@ -1,0 +1,48 @@
+<app-card variant="secondary" class="form-busca">
+  <form>
+    <h2>Passagens</h2>
+    <div class="flex-container">
+      <mat-button-toggle-group aria-label="Escolha de passagem">
+        <mat-button-toggle>
+          <mat-icon>check</mat-icon>
+          IDA E VOLTA</mat-button-toggle
+        >
+        <mat-button-toggle>SOMENTE IDA</mat-button-toggle>
+      </mat-button-toggle-group>
+      <mat-chip-listbox (click)="openDialog()" aria-label="Fish selection">
+        <mat-chip-option selected>
+          1 adulto</mat-chip-option>
+        <mat-chip-option>Econômica</mat-chip-option>
+      </mat-chip-listbox>
+    </div>
+    <div class="flex-container">
+      <mat-form-field appearance="outline" class="input-container">
+        <mat-icon matPrefix><span class="material-symbols-outlined">
+          flight_takeoff
+          </span></mat-icon>
+        <mat-label>Origem</mat-label>
+        <input matInput placeholder="Placeholder">
+        <mat-icon matSuffix><span class="material-symbols-outlined">
+          search
+          </span></mat-icon>
+        <!-- <mat-hint>Hint</mat-hint> -->
+      </mat-form-field>
+      <mat-icon class="mat-18">sync_alt</mat-icon>
+      <mat-form-field appearance="outline" class="input-container">
+        <mat-icon matPrefix><span class="material-symbols-outlined">
+          flight_land
+          </span></mat-icon>
+        <mat-label>Destino</mat-label>
+        <input matInput placeholder="Placeholder">
+        <mat-icon matSuffix><span class="material-symbols-outlined">
+          search
+          </span></mat-icon>
+        <!-- <mat-hint>Hint</mat-hint> -->
+      </mat-form-field>
+      <app-date-picker></app-date-picker>
+      <app-date-picker></app-date-picker>
+      <button mat-flat-button color="primary">Buscar</button>
+    </div>
+  </form>
+</app-card>
+

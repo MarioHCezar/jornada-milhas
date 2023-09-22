@@ -1,0 +1,42 @@
+.app-header{
+
+  .spacer {
+    flex: 1 1 auto;
+  }
+
+  button{
+    margin: 0 1rem;
+  }
+
+  mat-toolbar{
+    background: black;
+    color: white;
+    padding: 0 10rem;
+  }
+
+  .mat-mdc-outlined-button:not(:disabled){
+    border-color: white
+  }
+
+  .mdc-button {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    min-width: 7rem;
+    border: none;
+    outline: none;
+    line-height: inherit;
+    user-select: none;
+    appearance: none;
+    -webkit-appearance: none;
+    overflow: visible;
+    vertical-align: middle;
+  }
+
+}
+
+
+
+
